@@ -14,5 +14,7 @@ fun bake(item: String): BakedGood = when (item) {
 }
 
 enum class BakedGood(val cost: Int) {
-    CAKE(15), PIE(10), CUPCAKE(5)
+    CAKE(15),
+    PIE(10),
+    CUPCAKE(5)
 }
